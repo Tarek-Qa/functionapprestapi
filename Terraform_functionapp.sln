@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terraform_functionapp", "Terraform_functionapp\Terraform_functionapp.csproj", "{516200F5-A554-4353-A500-73F14799CED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Terraform", "Terraform", "{2FCD9D53-C846-4F5D-92FE-E18CF1CA1226}"
+	ProjectSection(SolutionItems) = preProject
+		Terraform_functionapp\main.tf = Terraform_functionapp\main.tf
+		Terraform_functionapp\output.tf = Terraform_functionapp\output.tf
+		Terraform_functionapp\provider.tf = Terraform_functionapp\provider.tf
+		Terraform_functionapp\variables.tf = Terraform_functionapp\variables.tf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{516200F5-A554-4353-A500-73F14799CED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516200F5-A554-4353-A500-73F14799CED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516200F5-A554-4353-A500-73F14799CED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516200F5-A554-4353-A500-73F14799CED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A94B6BA8-9D48-46E4-A2ED-FFABCE5EA9A4}
+	EndGlobalSection
+EndGlobal
