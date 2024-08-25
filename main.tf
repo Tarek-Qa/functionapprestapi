@@ -26,7 +26,7 @@ resource "azurerm_storage_blob" "function_app_package" {
   storage_account_name   = azurerm_storage_account.storage.name
   storage_container_name = azurerm_storage_container.function_app_container.name
   type                   = "Block"
-  source                 = "C:/Users/Tarek/source/repos/Terraform_functionapp/Terraform_functionapp"
+  source                 = "C:\\Users\\Tarek\\source\\repos\\Terraform_functionapp\\Terraform_functionapp\\Terraform_functionapp.zip"
 }
 
 
